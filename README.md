@@ -20,7 +20,7 @@ python implementation of the paper: "Efficient Image Dehazing with Boundary Cons
   ```
   $ import image_dehazer										# Load the library
 
-  $ HazeImg = cv2.imread('image_path', 0)						# read input image
+  $ HazeImg = cv2.imread('image_path')						# read input image -- (**must be a color image**)
   $ HazeCorrectedImg = image_dehazer.remove_haze(HazeImg)		# Remove Haze
 
   $ cv2.imshow('input image', HazeImg);						# display the original hazy image
