@@ -27,7 +27,17 @@ python implementation of the paper: "Efficient Image Dehazing with Boundary Cons
   $ cv2.imshow('enhanced_image', HazeCorrectedImg);			# display the result
   $ cv2.waitKey(0)											# hold the display window
   ```
-
+### user controllable parameters (with their default values):
+```
+airlightEstimation_windowSze=15
+boundaryConstraint_windowSze=3
+C0=20
+C1=300
+regularize_lambda=0.1
+sigma=0.5
+delta=0.85
+showHazeTrasmissionMap=True
+```
 ### method 2
 
   1. Go to the src folder
