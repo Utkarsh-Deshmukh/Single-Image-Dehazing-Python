@@ -22,14 +22,14 @@ https://utkarsh-deshmukh-streamlit-image-dehaze-run-haze-removal-vo1yua.streamli
   
   **Usage:**
   ```
-  $ import image_dehazer										# Load the library
+  import image_dehazer										# Load the library
 
-  $ HazeImg = cv2.imread('image_path')						# read input image -- (**must be a color image**)
-  $ HazeCorrectedImg = image_dehazer.remove_haze(HazeImg)		# Remove Haze
+  HazeImg = cv2.imread('image_path')						# read input image -- (**must be a color image**)
+  HazeCorrectedImg, HazeTransmissionMap = image_dehazer.remove_haze(HazeImg)		# Remove Haze
 
-  $ cv2.imshow('input image', HazeImg);						# display the original hazy image
-  $ cv2.imshow('enhanced_image', HazeCorrectedImg);			# display the result
-  $ cv2.waitKey(0)											# hold the display window
+  cv2.imshow('input image', HazeImg);						# display the original hazy image
+  cv2.imshow('enhanced_image', HazeCorrectedImg);			# display the result
+  cv2.waitKey(0)											# hold the display window
   ```
 ### user controllable parameters (with their default values):
 ```
