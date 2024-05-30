@@ -77,6 +77,8 @@ The algorithm can be divided into 4 parts:
   - The author would like to thank Alexandre Boucaud. The function psf2otf was obtained from his repository. (https://github.com/aboucaud/pypher/blob/master/pypher/pypher.py)
   
   - The Author would like to thank Dr. Suresh Merugu for his matlab implementation of the codes. This repository is the python implementation of the matlab codes.
+  
+  - The Author would like to thank Mayank Singal for his repository "[PyTorch-Image-Dehazing](https://github.com/MayankSingal/PyTorch-Image-Dehazing)" which gives a pytorch implementation of the AOD-Net architecture. [Link to ICCV 2017 paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_AOD-Net_All-In-One_Dehazing_ICCV_2017_paper.pdf)
  
  Merugu, Suresh. (2014). Re: How to detect fog in an image and then enhance the image to remove fog?. Retrieved from: https://www.researchgate.net/post/How_to_detect_fog_in_an_image_and_then_enhance_the_image_to_remove_fog/53ae3f10d2fd64c3648b45a9/citation/download. 
 
@@ -91,3 +93,14 @@ The algorithm can be divided into 4 parts:
   number={}, 
   pages={617-624}, 
   month={Dec},}
+
+
+
+
+# Performance Comparison:
+In this section, I am comparing the dehazing output with that of AOD-Net. I am using this [python implementation of AOD-Net](https://github.com/MayankSingal/PyTorch-Image-Dehazing/tree/master) to run a pretrained AOD-Net model
+![image](https://github.com/Utkarsh-Deshmukh/Single-Image-Dehazing-Python/assets/13918778/f61f6906-e466-487b-ad8c-b289b2d95b90)
+
+
+Here are some cases where AOD-Net is better:
+![image](https://github.com/Utkarsh-Deshmukh/Single-Image-Dehazing-Python/assets/13918778/c04d8157-40d1-4a92-b3fb-e85f1c50326c)
