@@ -84,6 +84,7 @@ The algorithm can be divided into 4 parts:
 
 
 # Citation
+```
 @INPROCEEDINGS{6751186, 
   author={G. Meng and Y. Wang and J. Duan and S. Xiang and C. Pan}, 
   booktitle={IEEE International Conference on Computer Vision}, 
@@ -93,7 +94,7 @@ The algorithm can be divided into 4 parts:
   number={}, 
   pages={617-624}, 
   month={Dec},}
-
+```
 
 
 
